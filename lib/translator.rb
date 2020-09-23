@@ -13,7 +13,7 @@ end
 def get_japanese_emoticon (emoticon_file, emoticon)
   # code goes here
   emoticons = load_library(emoticon_file)
-  result = ""
+  result = "Sorry, that emoticon was not found"
   emoticons.each do |meaning, language|
     if language[:english] == emoticon
       result = language[:japanese]
