@@ -13,7 +13,7 @@ end
 def get_japanese_emoticon (emoticon_file, emoticon)
   # code goes here
   emoticons = load_library(emoticon_file)
-  result = "Sorry, that emoticon was not found"
+  result = " "
   emoticons.find do |meaning, language|
     language.find do |inner_key, emote|
       if emote == emoticon
