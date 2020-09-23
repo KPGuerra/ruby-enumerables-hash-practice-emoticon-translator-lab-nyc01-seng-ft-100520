@@ -19,6 +19,7 @@ def get_japanese_emoticon (emoticon_file, emoticon)
       result = language[:japanese]
     end 
   end
+  result
 end
 
 def get_english_meaning (emoticon_file, emoticon)
