@@ -29,7 +29,6 @@ def get_english_meaning (emoticon_file, emoticon)
   emoticons.find do |meaning, language|
       if emote == emoticon
         result = emoticons.key(emoticon)
-      end 
     end 
   end
   result
